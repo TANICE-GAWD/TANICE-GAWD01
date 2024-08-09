@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #a3f7bf, #ffb3e6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.MuiTypography-h4 {
+    color: #002b7f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.MuiTextField-root {
+    margin-bottom: 20px;
+}
+
+.MuiButton-contained {
+    background-color: #00ff85;
+    color: #ffffff;
+}
+
+.MuiButton-contained:hover {
+    background-color: #00cc6b;
+}
+
+@media screen and (max-width: 480px) {
+    .login-container {
+        padding: 20px;
+    }
+}
+

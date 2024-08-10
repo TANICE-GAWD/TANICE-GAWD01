@@ -76,6 +76,14 @@ body {
     cursor: pointer; /* Adds pointer cursor on hover */
 }
 
+input[type="password"]::-ms-reveal, 
+input[type="password"]::-ms-clear, 
+input[type="password"]::-webkit-clear-button, 
+input[type="password"]::-webkit-inner-spin-button, 
+input[type="password"]::-webkit-outer-spin-button {
+    display: none;
+}
+
 .input-container .input-icon:hover {
     cursor: pointer; /* Ensures pointer cursor on hover */
 }
@@ -135,16 +143,8 @@ body {
     .login-container button {
         font-size: 14px;
     }
+    
 
 
-/* Hide browser's default eye icon in password fields 
-input[type="password"]::-ms-reveal, 
-input[type="password"]::-ms-clear, 
-input[type="password"]::-webkit-clear-button, 
-input[type="password"]::-webkit-inner-spin-button, 
-input[type="password"]::-webkit-outer-spin-button {
-    display: none;
-}
 
-*/
 }

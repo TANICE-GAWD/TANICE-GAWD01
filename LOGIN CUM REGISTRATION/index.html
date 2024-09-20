@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        
+        <!-- Username Input -->
+        <div class="input-container">
+            <input type="text" id="username" placeholder=" " required>
+            <label for="username">Username</label>
+            <span class="input-icon">&#128100;</span> <!-- User Icon -->
+        </div>
+
+        <!-- Password Input -->
+        <div class="input-container">
+            <input type="password" id="password" placeholder=" " required>
+            <label for="password">Password</label>
+            <span class="input-icon" id="togglePassword" onclick="togglePasswordVisibility()">&#128274;</span> <!-- Lock Icon -->
+        </div>
+
+        <button type="button" onclick="handleLogin()">Login</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
